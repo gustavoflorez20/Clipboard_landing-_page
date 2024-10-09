@@ -1,0 +1,342 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 50rem;
+    background-color: #F5F6F8;
+    line-height: 1.50rem;
+}
+
+.redes-s{
+
+    position: relative;
+    top: 2rem;
+    height: 1rem;
+}
+
+.faqs{
+    display: flex;
+    gap: 4rem;
+    margin-left: 30rem;
+}
+.texto-4{
+    color:#707176;
+    font-size: 0.60rem;
+}
+.verde{
+    background-color: #3CBBA4;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 0.60rem;
+    width: 8rem;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+.verde:hover{
+    background-color: #38A69F;
+}
+
+.azul{
+    background-color: #6175FC;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 0.60rem;
+    width: 8rem;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+.azul:hover{
+    background-color: #00628B;
+}
+
+.botones{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+.texto-3{
+    color:#C9CBCD;
+    font-size: 0.80rem;
+    text-align: center;
+}
+
+.titulo-2{
+    color:#54595E;
+    font-size: 1.20rem;
+    text-align: center;
+}
+.titulo-1{
+    color:#2D3135;
+    font-size: 1.50rem;
+    text-align: center;
+}
+.objetivos{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.uno{
+    
+    color: #707176;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.80rem;
+    width: 14rem;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    line-height: 1.5rem;
+}
+  
+  
+
+.img-objetivos{
+   width: 2rem;
+}
+
+.dos{
+
+    color: #707176;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.80rem;
+    width: 14rem;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.tres{
+    color: #707176;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.80rem;
+    width: 14rem;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.empresas{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    
+}
+.empresas img{
+    width: 4rem;
+}
+
+
+
+.superior {
+  background-image: url(./images/bg-header-desktop.png);
+  width: 100%;
+  height: 10rem ;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+  
+  
+}
+.logo-titulo{
+    align-items: center;
+    text-align: center;
+   position: relative;
+   bottom: 4rem;
+}
+ .logo{
+    position: relative;
+    bottom: 2rem;
+
+ }
+
+ .imagen-text{
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: row-reverse;
+   
+ }
+.textos{
+    margin-top: 3rem;
+}
+ .texto-3-l{
+    color:#C9CBCD;
+    font-size: 0.80rem;
+    text-align: justify;
+    margin-left: 3rem;
+
+}
+
+.titulo-2-l{
+    color:#54595E;
+    font-size: 1.20rem;
+    text-align: initial;
+    margin-left: 3rem;
+
+}
+
+.img-footer{
+    position: relative;
+    top: 4.5rem;
+}
+
+@media (max-width: 48rem){
+    .logo{
+        width: 10rem;
+        height: 10rem;
+    
+     }
+
+     .titulo-1{
+        font-size: 2.50rem;
+        padding: 1rem;
+     }
+     .botones{
+        flex-direction: column;
+        align-items: center;
+     }
+     .verde{
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.50rem;
+     }
+
+     .azul{
+
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.50rem;
+     }
+
+     .logo-titulo .texto-3{
+        font-size: 1.50rem;
+        
+     }
+     .logo-titulo .titulo-2{
+        font-size: 2.50rem;
+     }
+
+    .imagen-text{
+        flex-direction:  column-reverse;
+        align-items: center;
+        text-align: center;
+ 
+    }
+    .imagen-pc img{
+        width: 22rem;
+        height: 18rem;
+    }
+    .textos .titulo-2-l{
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .textos .texto-3-l{
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        font-size: 1.5rem;
+        
+        
+    }
+
+    .medio img{
+        width: 24rem;
+        height: 18rem;
+    }
+
+    .objetivos{
+        flex-direction: column;
+        align-items: center;
+        
+      
+    }
+
+    .objetivos img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .objetivos .titulo-2{
+        font-size:large;
+       
+        font-weight: bold;
+      gap: 2rem;
+    
+    }
+
+  .empresas{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+    .empresas img{
+        width: 12rem;
+        height: 4rem;
+    }
+
+   .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+   }
+
+   .faqs{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+    
+}
+.faqs .texto-4{
+    font-size: 1.50rem;
+}
+.contenedor-redes{
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+    flex-direction: row;
+    
+
+}
+
+.contenedor-redes img{
+   width: 2rem;
+   height: 2rem;
+   
+}
+.redes-s{
+   padding: 2rem;
+   position: relative;
+  right: 3rem;
+}
+
+.img-footer{
+    position: relative;
+    left: 12rem;
+}
+}
+
+
